@@ -92,15 +92,25 @@
                     <div class="elagazas">
                         <ul class="d-flex">
                             <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('mind')">Mind</i></Button></li>
-                            <li><Button type="button"><i class="bi bi-check" onclick="nevjegykartya()">Névjegykártya</i></Button></li>
-                            <li><Button type="button"><i class="bi bi-check" onclick="csomagolas()">Csomagolás</i></Button></li>
-                            <li><Button type="button"><i class="bi bi-check" onclick="cimke()">Címke</i></Button></li>
-                            <li><Button type="button"><i class="bi bi-check" onclick="prospektus()">Prospektus</i></Button></li>
-                            <li><Button type="button"><i class="bi bi-check" onclick="flyer()">Flyer</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('névjegykártya')">Névjegykártya</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('csomagolás')">Csomagolás</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('címke')">Címke</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('prospektus')">Prospektus</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('katalógus')">Flyer</i></Button></li>
                             <li><Button type="button"><i class="bi bi-check" onclick="egyeb()">Egyéb</i></Button></li>
                         </ul>
                     </div>
-                    <div class="kartyakContainer" class="kartyak"></div>
+                    <div class="kartyakContainer kartyak d-flex">
+                        <div class="kartya">
+                            <div class="bg">
+
+                            </div>
+                            <div class="adat">
+                                <p><span class="nev"></span> >> <span class="tema"></span></p>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
 
                 </div>
 

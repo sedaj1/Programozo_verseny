@@ -443,3 +443,7 @@ nav .active {
 .logo-szoveg strong {
     color:#00bfff;
 }
+
+.kartyak {
+    flex-wrap: wrap;
+}

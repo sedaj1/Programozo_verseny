@@ -28,12 +28,6 @@ function megjelenit(tipus) {
     });
 }
 
-function nevjegykartya() { megjelenit("névjegykártya"); }
-function csomagolas() { megjelenit("csomagolás"); }
-function cimke() { megjelenit("címke"); }
-function prospektus() { megjelenit("katalógus"); }
-function flyer() { megjelenit("szórólap"); }
-
 function egyeb() {
     const container = document.querySelector('.kartyakContainer');
     container.innerHTML = "";
