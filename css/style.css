@@ -16,9 +16,8 @@ main h2, .main_kepek strong{
     color: rgb(49, 195, 243);
 }
 
-.main_szoveg{
+.main_szoveg, main, .hirek{
     margin-top: 40px;
-    font-size: 16px;
 }
 
 .main_elso_kep, .main_keret img{
@@ -182,9 +181,6 @@ footer .social-icons img {
     background-size: cover;
 }
 
-main{
-    margin-top: 40px;
-}
 
 .main_kerdes{
     background-image: url(../images/kerdese-van.jpg);
@@ -290,9 +286,11 @@ main{
     
 }
 
+.megjegyzes, .main_szoveg{
+        font-size: 16px;
+}
 .megjegyzes{
     font-weight: 400;
-    font-size: 16px;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -303,7 +301,6 @@ main{
 
 .hirek {
     border: 1px solid #ccc;
-    margin-top: 40px;
     color: #000 !important;
     padding-left: 30px;
     padding-right: 30px;
