@@ -183,7 +183,7 @@ main{
     text-transform: uppercase;
     color:#fff;
     font-size: 23px;
-    padding;
+    padding-left: 30px;
 }
 
 .partner_egy span{
@@ -240,4 +240,11 @@ header input {
 .logos {
     height: 50%;
     align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    border-right: 1px solid #000;
+    padding-right: 50px;
+    margin-right: 50px;
 }
