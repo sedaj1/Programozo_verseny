@@ -43,26 +43,48 @@ footer .legalso{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-footer a{
+footer a, a{
     text-decoration: none;
 }
-footer a, footer .legalso p, footer li{
+footer a, footer .legalso p, footer li, a{
     color: #ffffff;
 }
-footer li{
+footer li, li{
     list-style-type: none;
 }
 footer img:first-of-type{
     padding-left: 30px;
 }
+
 footer .social-icons {
     text-align: right;
     margin-top: 10px;
 }
 footer .social-icons img {
-    width: 24px;
+    width: 60px;
     margin-left: 10px;
 }
+
+.kartya {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+.kartya img.kep {
+    max-width: 100%;
+    height: auto;
+}
+.leiras {
+    margin-top: 10px;
+}
+
+
+
+
+
 .main_szoveg_hosszu{
     margin-top: 20px;
     color:#666666;
@@ -298,7 +320,7 @@ header .nav-item a {
     color: #fff;
 }
 
-header .nav-item a, .logos p {
+header .nav-item a, .logos p, .box p:first-of-type {
     text-transform: uppercase;
 }
 
@@ -332,4 +354,80 @@ header input {
 .logos {
     height: 50%;
     align-items: center;
+    justify-content: center;
+    margin-left: 42px;
+}
+
+.logo {
+    border-right: 1px solid #000;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+header .termekek {
+    background-image: url("../images/box-1.jpg");
+}
+
+header .projektek {
+    background-image: url("../images/box-2.jpg");
+}
+
+header .ajanlat {
+    background-image: url("../images/box-3.jpg");
+}
+
+.box {
+    width: 400px;
+    height: 250px;
+    color: #fff;
+}
+
+.box, .header-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box p:first-of-type {  
+    font-size: 30px;
+}
+
+.box div:first-of-type {
+    height: 100%;
+}
+
+.teglalapok {
+    justify-content: center;
+}
+
+.box-szoveg {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box {
+    margin: 0 20px;
+}
+
+header {
+    margin-bottom: 150px;
+}
+
+.mobil-kor {
+    width: 70px;
+}
+
+.box-kor {
+    margin-top: -30px;
+}
+
+nav .active {
+    color: #ffed05 !important;
+}
+
+.logo-szoveg {
+    width: 18%;
+}
+
+.logo-szoveg strong {
+    color:#00bfff;
 }
