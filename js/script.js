@@ -4,7 +4,9 @@ function megjelenit(tipus) {
 
     const szurt = tipus === 'mind' 
         ? nyomdaipariReferenciak 
-        : nyomdaipariReferenciak.filter(item => item.nev.toLowerCase().includes(tipus.toLowerCase()));
+        : nyomdaipariReferenciak.filter(item => 
+            item.nev.toLowerCase().includes(tipus.toLowerCase())
+        );
 
     szurt.forEach(item => {
         const kartya = document.createElement("div");
@@ -31,15 +33,17 @@ function csomagolas() { megjelenit("csomagolás"); }
 function cimke() { megjelenit("címke"); }
 function prospektus() { megjelenit("katalógus"); }
 function flyer() { megjelenit("szórólap"); }
-function egyeb() {
 
-    
+function egyeb() {
+    const container = document.querySelector('.kartyakContainer');
+    container.innerHTML = "";
+
     const ismertTipusok = ["névjegykártya", "csomagolás", "címke", "szórólap", "katalógus"];
+
     const egyebek = nyomdaipariReferenciak.filter(item =>
         !ismertTipusok.some(tipus => item.nev.toLowerCase().includes(tipus))
     );
-    const container = document.getElementById('kartyakContainer');
-    container.innerHTML = "";
+
     egyebek.forEach(item => {
         const kartya = document.createElement("div");
         kartya.className = "kartya";
@@ -54,3 +58,7 @@ function egyeb() {
         container.appendChild(kartya);
     });
 }
+
+window.onload = () => {
+    megjelenit('mind');
+};
