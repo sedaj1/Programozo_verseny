@@ -5,6 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 18px;
 }
 
 header .sargaSav {
@@ -28,4 +29,49 @@ main h2{
 .main_szoveg_hosszu{
     margin-top: 20px;
     color:#666666;
+}
+
+.sargaSav .col-lg-6 {
+    padding: 3px;
+}
+
+header .nav-item a {
+    font-weight: 700;
+    color: #fff;
+}
+
+header .nav-item a, .logos p {
+    text-transform: uppercase;
+}
+
+.sargaSav .d-flex {
+    justify-content: space-around;
+}
+
+header input {
+    padding: 0;
+    border-radius: 0 !important;
+    width: 300px !important;
+}
+
+.navBar {
+    justify-content: center;
+}
+
+.header-bg {
+    background-image: url("../images/header-bg.png");
+    height: 500px;
+}
+
+.nyil {
+    justify-content: center;
+}
+
+.nyil img {
+    width: 50px;
+}
+
+.logos {
+    height: 50%;
+    align-items: center;
 }

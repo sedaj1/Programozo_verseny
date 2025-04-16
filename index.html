@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,71 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Nyomda Online</title>
 </head>
+
 <body>
     <header>
-        <div class="container-fluid sargaSav">
+        <div class="container-fluid sargaSav p-0">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">Nyomdai termékek a <strong>legjobb árakon!</strong></div>
-                    <div class="clo-lg-6"><i class="bi bi-telephone-fill"></i> +36-70/381-6832 <i class="bi bi-envelope-paper-fill"></i> info@nyomda-online.hu</div>
+                <div class="d-flex">
+                    <div class="text-center w-100 d-flex">
+                        <p class="m-0">Nyomdai termékek a <strong>legjobb árakon!</strong></p>
+                    </div>
+                    <div class="text-center w-100">
+                        <p class="m-0"><i class="bi bi-telephone-fill"></i> +36-70/381-6832 <i
+                                class="bi bi-envelope-paper-fill"></i> info@nyomda-online.hu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary p-0" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex navBar" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Nyomda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nyomdai termékek</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Referenciáink</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ajánlatkérés</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hírek</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kapcsolat</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <button class="btn" type="button"><img src="images/search-icon.png" alt="Keresés"
+                                    title="Keresés"></button>
+                            <input class="form-control me-2" type="search" placeholder="Kezdjen keresni itt..."
+                                aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid header-bg">
+            <div class="d-flex nyil">
+                <img src="images/down-arrow2.png" alt="" title="">
+            </div>
+            <div class="d-flex logos">
+                <div>
+                    <img src="images/nyomda-online-logo.png" alt="Logo" title="Logo">
+                </div>
+                <div>
+                    <p>Nyomdai termékek, prospektusok, szórólapok egy kézből</p>
                 </div>
             </div>
         </div>
@@ -26,20 +85,44 @@
                     <h3>Folyamatosan versenyeztetett árak</h3>
                     <h2>Nyomda termékek egy kézből</h2>
 
-                    <p class="main_szoveg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus amet rem quibusdam, harum necessitatibus quaerat. Soluta est voluptatum odio iure amet? Corporis totam quis porro odio, labore ab eos, impedit culpa, voluptates quas delectus velit. A placeat doloribus maxime, fugit tempore minus nam quibusdam vero sequi voluptatum illo eligendi blanditiis! Corrupti commodi, eum, officiis illo alias saepe distinctio amet laborum dolorem exercitationem magni dolorum quis, earum praesentium sed nisi voluptatum reprehenderit minus veniam necessitatibus minima animi officia! Atque, quas amet! Laboriosam, error sit! Excepturi repellendus hic laborum veniam corrupti. Aperiam, inventore veniam consequuntur fugit quam quaerat molestias cupiditate voluptatem unde.</p>
+                    <p class="main_szoveg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus amet
+                        rem quibusdam, harum necessitatibus quaerat. Soluta est voluptatum odio iure amet? Corporis
+                        totam quis porro odio, labore ab eos, impedit culpa, voluptates quas delectus velit. A placeat
+                        doloribus maxime, fugit tempore minus nam quibusdam vero sequi voluptatum illo eligendi
+                        blanditiis! Corrupti commodi, eum, officiis illo alias saepe distinctio amet laborum dolorem
+                        exercitationem magni dolorum quis, earum praesentium sed nisi voluptatum reprehenderit minus
+                        veniam necessitatibus minima animi officia! Atque, quas amet! Laboriosam, error sit! Excepturi
+                        repellendus hic laborum veniam corrupti. Aperiam, inventore veniam consequuntur fugit quam
+                        quaerat molestias cupiditate voluptatem unde.</p>
 
                     <img class="main_elso_kep" src="images/kep.jpg" alt="kép" title="kép">
 
-                    <p class="main_szoveg_hosszu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi dolorem, quaerat est, laboriosam accusantium, iusto eum dolore aut fuga quod reiciendis totam! Eum quasi autem, deserunt eligendi porro molestiae ab neque dicta eos dolores voluptatum sint aperiam eius. Illo odit nihil modi, fuga doloribus praesentium dolor quam repudiandae? Velit facere excepturi labore aperiam sequi alias officiis, tempore tempora dignissimos?</p>
+                    <p class="main_szoveg_hosszu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi
+                        dolorem, quaerat est, laboriosam accusantium, iusto eum dolore aut fuga quod reiciendis totam!
+                        Eum quasi autem, deserunt eligendi porro molestiae ab neque dicta eos dolores voluptatum sint
+                        aperiam eius. Illo odit nihil modi, fuga doloribus praesentium dolor quam repudiandae? Velit
+                        facere excepturi labore aperiam sequi alias officiis, tempore tempora dignissimos?</p>
 
-                    <p class="main_szoveg_hosszu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quam blanditiis. Fuga facere in aliquam minus facilis at soluta officiis ut ducimus quas, rem eos quidem sunt eaque accusantium deleniti cupiditate praesentium commodi earum sed iusto omnis. Enim quod quaerat asperiores recusandae facere aliquid optio nobis, sunt hic porro distinctio deleniti doloremque consequuntur fugit vitae cupiditate ad doloribus, facilis, ea a praesentium voluptatum et necessitatibus minus. Earum eius dolorem consequatur aliquam magnam, commodi at suscipit porro vitae placeat sit inventore!</p>
+                    <p class="main_szoveg_hosszu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                        quam blanditiis. Fuga facere in aliquam minus facilis at soluta officiis ut ducimus quas, rem
+                        eos quidem sunt eaque accusantium deleniti cupiditate praesentium commodi earum sed iusto omnis.
+                        Enim quod quaerat asperiores recusandae facere aliquid optio nobis, sunt hic porro distinctio
+                        deleniti doloremque consequuntur fugit vitae cupiditate ad doloribus, facilis, ea a praesentium
+                        voluptatum et necessitatibus minus. Earum eius dolorem consequatur aliquam magnam, commodi at
+                        suscipit porro vitae placeat sit inventore!</p>
 
-                    <p class="main_szoveg_hosszu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quam blanditiis. Fuga facere in aliquam minus facilis at soluta officiis ut ducimus quas, rem eos quidem sunt eaque accusantium deleniti cupiditate praesentium commodi earum sed iusto omnis. Enim quod quaerat asperiores recusandae facere aliquid optio nobis, sunt hic porro distinctio deleniti doloremque consequuntur fugit vitae cupiditate ad doloribus, facilis, ea a praesentium voluptatum et necessitatibus minus. Earum eius dolorem consequatur aliquam magnam, commodi at suscipit porro vitae placeat sit inventore!</p>
+                    <p class="main_szoveg_hosszu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                        quam blanditiis. Fuga facere in aliquam minus facilis at soluta officiis ut ducimus quas, rem
+                        eos quidem sunt eaque accusantium deleniti cupiditate praesentium commodi earum sed iusto omnis.
+                        Enim quod quaerat asperiores recusandae facere aliquid optio nobis, sunt hic porro distinctio
+                        deleniti doloremque consequuntur fugit vitae cupiditate ad doloribus, facilis, ea a praesentium
+                        voluptatum et necessitatibus minus. Earum eius dolorem consequatur aliquam magnam, commodi at
+                        suscipit porro vitae placeat sit inventore!</p>
 
-                    
+
                 </div>
             </div>
-           
+
         </div>
     </main>
     <footer>
@@ -59,4 +142,5 @@
     </footer>
     <script src="js/script.js"></script>
 </body>
+
 </html>
