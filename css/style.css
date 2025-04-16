@@ -451,3 +451,19 @@ nav .active {
 .kartyak {
     flex-wrap: wrap;
 }
+
+.reklamSzoveg{
+    margin-top: 30px;
+    margin-left: 1px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.reklam img{
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
