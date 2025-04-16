@@ -15,7 +15,7 @@ header .sargaSav {
 }
 
 main h2{
-    color: lightblue;
+    color: rgb(49, 195, 243);
 }
 
 .main_szoveg{
@@ -26,4 +26,9 @@ main h2{
 .main_elso_kep{
     max-width: 100%;
     width: 100%;
+}
+
+.main_szoveg_hosszu{
+    margin-top: 20px;
+    color:#666666;
 }
