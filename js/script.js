@@ -2,6 +2,13 @@ function megjelenit(tipus) {
     const container = document.querySelector('.kartyakContainer');
     container.innerHTML = "";
 
+    document.querySelectorAll('.gombok button').forEach(btn => btn.classList.remove('active'));
+
+    const clicked = Array.from(document.querySelectorAll('.gombok i')).find(i => i.innerText.trim().toLowerCase() === tipus.toLowerCase());
+    if (clicked) {
+        clicked.parentElement.classList.add('active');
+    }
+
     const szurt = tipus === 'mind' 
         ? nyomdaipariReferenciak 
         : nyomdaipariReferenciak.filter(item => 
@@ -32,6 +39,13 @@ function egyeb() {
     const container = document.querySelector('.kartyakContainer');
     container.innerHTML = "";
 
+    document.querySelectorAll('.gombok button').forEach(btn => btn.classList.remove('active'));
+
+    const clicked = Array.from(document.querySelectorAll('.gombok i')).find(i => i.innerText.trim().toLowerCase() === "egyéb");
+    if (clicked){
+        clicked.parentElement.classList.add('active');
+    }
+
     const ismertTipusok = ["névjegykártya", "csomagolás", "címke", "szórólap", "katalógus"];
 
     const egyebek = nyomdaipariReferenciak.filter(item =>
@@ -52,5 +66,3 @@ function egyeb() {
         container.appendChild(kartya);
     });
 }
-
-megjelenit('mind');
