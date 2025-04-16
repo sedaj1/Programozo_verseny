@@ -43,13 +43,13 @@ footer .legalso{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-footer a{
+footer a, a{
     text-decoration: none;
 }
-footer a, footer .legalso p, footer li{
+footer a, footer .legalso p, footer li, a{
     color: #ffffff;
 }
-footer li{
+footer li, li{
     list-style-type: none;
 }
 footer img:first-of-type{
@@ -65,6 +65,21 @@ footer .social-icons img {
     margin-left: 10px;
 }
 
+.kartya {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+.kartya img.kep {
+    max-width: 100%;
+    height: auto;
+}
+.leiras {
+    margin-top: 10px;
+}
 
 
 
