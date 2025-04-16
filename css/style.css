@@ -27,3 +27,41 @@ main h2{
     max-width: 100%;
     width: 100%;
 }
+
+
+
+
+
+footer{
+    padding-top: 30px;
+    background-image:url(../images/footer-bg.jpg);
+}
+footer p{
+    color: yellow;
+    padding-left: 30px;
+}
+footer .legalso{
+    background-color: #303030;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a, footer .legalso p, footer li{
+    color: #ffffff;
+}
+footer li{
+    list-style-type: none;
+}
+footer img:first-of-type{
+    padding-left: 30px;
+}
+footer .social-icons {
+    text-align: right;
+    margin-top: 10px;
+}
+footer .social-icons img {
+    width: 24px;
+    margin-left: 10px;
+}
