@@ -59,6 +59,4 @@ function egyeb() {
     });
 }
 
-window.onload = () => {
-    megjelenit('mind');
-};
+megjelenit('mind');
