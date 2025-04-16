@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -91,17 +92,25 @@
                     <!--ELÁGAZÁS-->
                     <div class="elagazas">
                         <ul class="d-flex">
-                            <li><button type="button"><i class="bi bi-check" onclick="megjelenit('mind')"></i>Mind</button></li>
-                            <li><button type="button"><i class="bi bi-check" onclick="megjelenit('névjegykártya')"></i>Névjegykártya</button></li>
-                            <li><button type="button"><i class="bi bi-check" onclick="megjelenit('csomagolás')"></i>Csomagolás</button></li>
-                            <li><button type="button"><i class="bi bi-check" onclick="megjelenit('címke')"></i>Címke</button></li>
-                            <li><button type="button"><i class="bi bi-check" onclick="megjelenit('prospektus')"></i>Prospektus</button></li>
-                            <li><button type="button"><i class="bi bi-check" onclick="megjelenit('katalógus')"></i>Flyer</button></li>
-                            <li><button type="button"><i class="bi bi-check" onclick="egyeb()"></i>Egyéb</button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('mind')">Mind</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('névjegykártya')">Névjegykártya</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('csomagolás')">Csomagolás</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('címke')">Címke</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('prospektus')">Prospektus</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="megjelenit('katalógus')">Flyer</i></Button></li>
+                            <li><Button type="button"><i class="bi bi-check" onclick="egyeb()">Egyéb</i></Button></li>
                         </ul>
                     </div>
                     <div class="kartyakContainer kartyak d-flex">
-                        
+                        <div class="kartya">
+                            <div class="bg">
+
+                            </div>
+                            <div class="adat">
+                                <p><span class="nev"></span> >> <span class="tema"></span></p>
+                            </div>
+                            <hr>
+                        </div>
                     </div>
 
                 </div>
@@ -166,16 +175,6 @@
                         <h3 class="main_kek">2016-os év színei a pantone ajánlásával</h3>
                         <p class="main_szurke">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque ipsum molestiae minus soluta quo vitae fugit consequatur aspernatur magni!</p>
                         <a href="">Tovább olvasom >></a>
-                        <hr>
-                        <p class="datum">2016. június 10.</p>
-                        <h3 class="main_kek">Gmund colors</h3>
-                        <p class="main_szurke">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque ipsum molestiae minus soluta quo vitae fugit consequatur aspernatur magni!</p>
-                        <a href="">Tovább olvasom >></a>
-                    </div>
-
-                    <div class="reklam">
-                        <p class="reklamSzoveg">Reklám</p>
-                        <img src="images/reklam.jpg" alt="reklám" title="reklám">
                     </div>
                     
                 </div>
@@ -260,17 +259,17 @@
     </main>
     <footer>
         <div>
-            <div class="container footer_kep">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
                         <img src="images/nyomda-online-felirat.png" alt="Nyomda felirat" title="Nyomda felirat">
                     </div>
                     <div class="col-lg-4">
-                        <img class="logo_kep" src="images/nyomda-online-logo-footer.png" alt="">
+                        <img src="images/nyomda-online-logo-footer.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="container  footer_hatter">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-2">
                         <p>Rólunk-adatok</p>
@@ -333,8 +332,8 @@
             <p>&copy;2016•Nyomda-Online•Minden jog fenntartva!</p>
         </div>
     </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/nyomdaipariReferenciak.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
