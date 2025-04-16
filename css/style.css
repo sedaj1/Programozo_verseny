@@ -514,3 +514,9 @@ footer{
 .logo_kep{
     margin-bottom: 30px;
 }
+
+.fel {
+    margin-top: -300px;
+    background-color: #fff;
+    padding: 10px;
+}
