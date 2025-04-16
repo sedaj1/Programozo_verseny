@@ -55,14 +55,21 @@ footer li{
 footer img:first-of-type{
     padding-left: 30px;
 }
+
 footer .social-icons {
     text-align: right;
     margin-top: 10px;
 }
 footer .social-icons img {
-    width: 24px;
+    width: 60px;
     margin-left: 10px;
 }
+
+
+
+
+
+
 .main_szoveg_hosszu{
     margin-top: 20px;
     color:#666666;
@@ -183,7 +190,7 @@ main{
     text-transform: uppercase;
     color:#fff;
     font-size: 23px;
-    padding;
+    padding-left: 30px;
 }
 
 .partner_egy span{
