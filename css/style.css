@@ -224,6 +224,12 @@ main{
 .partner_egy span{
     color:yellow;
 }
+
+.main_kartya{
+    color:#fff !important;
+    font-style: italic;
+    font-size: 16px !important;
+}
 .partner{
     background-image: url(../images/rolunk-mondtak.jpg);
     height: 580px;
