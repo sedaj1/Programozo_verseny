@@ -71,25 +71,51 @@ footer .social-icons img {
     margin-left: 10px;
 }
 
-.kartya {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
+.kartyakContainer {
     display: flex;
-    flex-direction: column;
-    max-width: 300px;
-}
-.kartya img.kep {
-    max-width: 100%;
-    height: auto;
-}
-.leiras {
-    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
+.kartya {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
 
+.kartya img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
+.kartya .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
+.kartya:hover .overlay {
+    opacity: 1;
+}
+
+.temacim {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
 
 .main_szoveg_hosszu{
     margin-top: 20px;
@@ -102,7 +128,6 @@ footer .social-icons img {
     font-size: 23px;
     padding: 10px 0px;
     color:#fff;
-    
 }
 
 .main_keres strong{
@@ -147,9 +172,11 @@ footer .social-icons img {
 }
 
 .main_keres_hatter,.kerdes,.main_facebook,.partner{
-    background-size: cover;
     width: 100%;
-    
+}
+
+.main_keres_hatter,.kerdes,.main_facebook,.partner, .kartya {
+    background-size: cover;
 }
 
 main{
@@ -446,4 +473,9 @@ nav .active {
 
 .kartyak {
     flex-wrap: wrap;
+}
+
+.kartya img, .kartya {
+    width: 400px;
+    height: 250px;
 }
