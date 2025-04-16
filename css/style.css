@@ -26,6 +26,12 @@ main h2, .main_kepek strong{
     width: 100%;
 }
 
+.main_kartya{
+    color:#fff !important;
+    font-size: 16px !important;
+    font-style: italic;
+}
+
 
 
 
@@ -220,7 +226,7 @@ main{
 }
 .partner{
     background-image: url(../images/rolunk-mondtak.jpg);
-    height: 550px;
+    height: 580px;
 }
 
 .barbara{
