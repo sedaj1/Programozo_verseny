@@ -1,3 +1,17 @@
 header .sargaSav {
     background-color: #ffed05;
 }
+
+main h2{
+    color: lightblue;
+}
+
+.main_szoveg{
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.main_elso_kep{
+    max-width: 100%;
+    width: 100%;
+}
