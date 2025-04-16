@@ -337,7 +337,11 @@ header .nav-item a, .logos p, .box p:first-of-type {
 }
 
 .sargaSav .d-flex {
-    justify-content: space-around;
+    margin-left: 37px;
+}
+
+.bi-envelope-paper-fill{
+    margin-left: 50px;
 }
 
 header input {
